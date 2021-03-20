@@ -331,7 +331,7 @@ body {
   position: relative;
   background: #000;
   margin-bottom: 10%;
-  z-index: 999;
+  z-index: 99;
 }
 
 .mission-content {
@@ -492,5 +492,48 @@ body {
   background: none;
   border: 1px solid #fff;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .news {
+    width: 100%;
+  }
+  .mission-content {
+    padding: 10% 0;
+    margin: 0 auto;
+  }
+  .service-content_inner {
+    width: 60%;
+    left: 10%;
+  }
+  .service-img {
+    width: 70%;
+    margin-left: 30%;
+  }
+  .service-img_second {
+    margin: 0 30% 0 0;
+  }
+  .service-content_inner-second {
+    left: 30%;
+  }
+  .service-content {
+    margin: 0 auto;
+  }
+  .service-content_inner {
+    width: 90%;
+    position: inherit;
+    background: rgba(255, 255, 255, 0.8);
+    left: 5%;
+  }
+  .service-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .recruit-company_size {
+    width: 100%;
+  }
+  .faq-title {
+    font-size: 30px;
+  }
 }
 </style>

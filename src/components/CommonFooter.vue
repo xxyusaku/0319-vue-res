@@ -45,5 +45,9 @@
     width: 100%;
     text-align: center;
   }
+
+  .top-footer .header-nav {
+    display: none;
+  }
 }
 </style>
