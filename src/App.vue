@@ -469,7 +469,7 @@ body {
 /*        contact         */
 /*------------------------*/
 .contact {
-  background: url(../img/contact-bg.jpg) center/cover no-repeat;
+  background: url(./assets/contact-bg.jpg) center/cover no-repeat;
   padding: 10%;
 }
 
