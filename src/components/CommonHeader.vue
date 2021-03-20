@@ -20,7 +20,7 @@
       <span></span>
       <span></span>
     </div>
-  </div>
+  </div>  
 </template>
 
 <style scoped>
@@ -52,9 +52,9 @@
   color: #fff;
 }
 
-#firstview {
+/* #firstview {
   height: 100%;
-  background: url(../assets/eyecatch.jpg) no-repeat;
+  background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -69,5 +69,51 @@
   font-weight: bold;
   color: #fff;
   line-height: 1;
+} */
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+  /* .catchcopy {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  } */
+  #hamburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    top: 15px;
+    right: 20px;
+    transition: 0.4s;
+    display: block;
+  }
+  #hamburger span {
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.8s;
+  }
+  #hamburger span:nth-of-type(1) {
+    position: absolute;
+    top: 10px;
+    left: 2px;
+  }
+  #hamburger span:nth-of-type(2) {
+    position: absolute;
+    top: 20px;
+    left: 2px;
+  }
+  #hamburger span:nth-of-type(3) {
+    position: absolute;
+    top: 30px;
+    left: 2px;
+  }
 }
 </style>
