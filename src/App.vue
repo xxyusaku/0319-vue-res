@@ -276,7 +276,7 @@ body {
 
 #firstview {
   height: 100%;
-  background: url(../asset/eyecatch.jpg) no-repeat;
+  background: url(./assets/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -418,11 +418,11 @@ body {
 }
 
 .company-img {
-  background: url(../img/company.jpeg) center/cover no-repeat;
+  background: url(./assets/company.jpeg) center/cover no-repeat;
 }
 
 .recruit-img {
-  background: url(../img/recruit.jpg) center/cover no-repeat;
+  background: url(./assets/recruit.jpg) center/cover no-repeat;
 }
 
 .company-title {
